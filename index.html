@@ -9,6 +9,11 @@
   <body>
     <h1>Planet data table</h1>
     <table>
+        <colgroup>
+            <col span="2"></col>
+            <col class="column-border"></col>
+            <col span="9"></col>
+        </colgroup>
         <caption>
             Data about the planets of our solar system
         </caption>
@@ -29,7 +34,7 @@
         </thead>
         <tbody>
             <tr>
-                <td colspan="2" rowspan="4" id="terrestial-planets">Terrestrial planets</td>
+                <th colspan="2" rowspan="4" id="terrestial-planets">Terrestrial planets</th>
                 <td headers="terrestial-planets" id="mercury">Mercury</td>
                 <td headers="terrestial-planets mercury">0.330</td>
                 <td headers="terrestial-planets mercury">4,879</td>
@@ -54,92 +59,92 @@
                 <td headers="terrestial-planets venus">Hottest planet</td>
             </tr>
             <tr>
-                <td>Earth</td>
-                <td>5.97</td>
-                <td>12,756</td>
-                <td>5,514</td>
-                <td>9.8</td>
-                <td>24.0</td>
-                <td>149.6</td>
-                <td>15</td>
-                <td>1</td>
-                <td>Our home planet</td>
+                <td headers="terrestial-planets" id="earth">Earth</td>
+                <td headers="terrestial-planets earth">5.97</td>
+                <td headers="terrestial-planets earth">12,756</td>
+                <td headers="terrestial-planets earth">5,514</td>
+                <td headers="terrestial-planets earth">9.8</td>
+                <td headers="terrestial-planets earth">24.0</td>
+                <td headers="terrestial-planets earth">149.6</td>
+                <td headers="terrestial-planets earth">15</td>
+                <td headers="terrestial-planets earth">1</td>
+                <td headers="terrestial-planets earth">Our home planet</td>
             </tr>
             <tr>
-                <td>Mars</td>
-                <td>0.642</td>
-                <td>6,792</td>
-                <td>3,933</td>
-                <td>3.7</td>
-                <td>24.7</td>
-                <td>227.9</td>
-                <td>-65</td>
-                <td>2</td>
-                <td>Known as the Red Planet</td>
+                <td headers="terrestial-planets" id="earth">Mars</td>
+                <td headers="terrestial-planets earth">0.642</td>
+                <td headers="terrestial-planets earth">6,792</td>
+                <td headers="terrestial-planets earth">3,933</td>
+                <td headers="terrestial-planets earth">3.7</td>
+                <td headers="terrestial-planets earth">24.7</td>
+                <td headers="terrestial-planets earth">227.9</td>
+                <td headers="terrestial-planets earth">-65</td>
+                <td headers="terrestial-planets earth">2</td>
+                <td headers="terrestial-planets earth">Known as the Red Planet</td>
             </tr>
             <tr>
-                <td rowspan="4">Jovian planets</td>
-                <td rowspan="2">Gas gaints</td>
-                <td>Jupiter</td>
-                <td>1898</td>
-                <td>142,984</td>
-                <td>1,326</td>
-                <td>23.1</td>
-                <td>9.9</td>
-                <td>778.6</td>
-                <td>-110</td>
-                <td>79</td>
-                <td>Largest planet</td>
+                <th rowspan="4" id="jovian">Jovian planets</th>
+                <th rowspan="2" headers="jovian" id="gas-gaints">Gas gaints</th>
+                <td headers="jovian gas-gaints" id="jupiter">Jupiter</td>
+                <td headers="jovian gas-gaints jupiter">1898</td>
+                <td headers="jovian gas-gaints jupiter">142,984</td>
+                <td headers="jovian gas-gaints jupiter">1,326</td>
+                <td headers="jovian gas-gaints jupiter">23.1</td>
+                <td headers="jovian gas-gaints jupiter">9.9</td>
+                <td headers="jovian gas-gaints jupiter">778.6</td>
+                <td headers="jovian gas-gaints jupiter">-110</td>
+                <td headers="jovian gas-gaints jupiter">79</td>
+                <td headers="jovian gas-gaints jupiter">Largest planet</td>
             </tr>
             <tr>
-                <td>Saturn</td>
-                <td>568</td>
-                <td>120,536</td>
-                <td>687</td>
-                <td>9.0</td>
-                <td>10.7</td>
-                <td>1433.5</td>
-                <td>-140</td>
-                <td>83</td>
-                <td>Known for its prominent ring system</td>
+                <td headers="jovian gas-gaints" id="saturn">Saturn</td>
+                <td headers="jovian gas-gaints saturn">568</td>
+                <td headers="jovian gas-gaints saturn">120,536</td>
+                <td headers="jovian gas-gaints saturn">687</td>
+                <td headers="jovian gas-gaints saturn">9.0</td>
+                <td headers="jovian gas-gaints saturn">10.7</td>
+                <td headers="jovian gas-gaints saturn">1433.5</td>
+                <td headers="jovian gas-gaints saturn">-140</td>
+                <td headers="jovian gas-gaints saturn">83</td>
+                <td headers="jovian gas-gaints saturn">Known for its prominent ring system</td>
             </tr>
             <tr>
-                <td rowspan="2">Ice giants</td>
-                <td>Uranus</td>
-                <td>86.8</td>
-                <td>51,118</td>
-                <td>1,270</td>
-                <td>8.7</td>
-                <td>17.2</td>
-                <td>2871.0</td>
-                <td>-195</td>
-                <td>27</td>
-                <td>Has a unique sideways rotation</td>
+                <th rowspan="2" headers="jovian" id="ice-giants">Ice giants</th>
+                <td headers="jovian ice-giants" id="uranus">Uranus</td>
+                <td headers="jovian ice-giants uranus">86.8</td>
+                <td headers="jovian ice-giants uranus">51,118</td>
+                <td headers="jovian ice-giants uranus">1,270</td>
+                <td headers="jovian ice-giants uranus">8.7</td>
+                <td headers="jovian ice-giants uranus">17.2</td>
+                <td headers="jovian ice-giants uranus">2871.0</td>
+                <td headers="jovian ice-giants uranus">-195</td>
+                <td headers="jovian ice-giants uranus">27</td>
+                <td headers="jovian ice-giants uranus">Has a unique sideways rotation</td>
             </tr>
             <tr>
-                <td>Neptune</td>
-                <td>102</td>
-                <td>49,528</td>
-                <td>1,638</td>
-                <td>11.0</td>
-                <td>16.1</td>
-                <td>4497.1</td>
-                <td>-200</td>
-                <td>14</td>
-                <td>Farthest known planet from the Sun</td>
+                <td headers="jovian ice-giants" id="neptune">Neptune</td>
+                <td headers="jovian ice-giants neptune">102</td>
+                <td headers="jovian ice-giants neptune">49,528</td>
+                <td headers="jovian ice-giants neptune">1,638</td>
+                <td headers="jovian ice-giants neptune">11.0</td>
+                <td headers="jovian ice-giants neptune">16.1</td>
+                <td headers="jovian ice-giants neptune">4497.1</td>
+                <td headers="jovian ice-giants neptune">-200</td>
+                <td headers="jovian ice-giants neptune">14</td>
+                <td headers="jovian ice-giants neptune">Farthest known planet from the Sun</td>
             </tr>
             <tr>
-                <td colspan="2">Dwarf planets</td>
-                <td>Pluto</td>
-                <td>0.0146</td>
-                <td>2,377</td>
-                <td>1,860</td>
+                <th colspan="2" id="dwarf-planets">Dwarf planets</th>
+                <td headers="dwarf-planets" id="pluto">Pluto</td>
+                <td headers="dwarf-planets pluto">0.0146</td>
+                <td headers="dwarf-planets pluto">2,377</td>
+                <td headers="dwarf-planets pluto">1,860</td>
                 <td>0.7</td>
-                <td>153.3</td>
-                <td>5906.4</td>
-                <td>-225</td>
-                <td>5</td>
-                <td>Declassified as a planet in 2006, but this 
+                <td headers="dwarf-planets pluto">153.3</td>
+                <td headers="dwarf-planets pluto">5906.4</td>
+                <td headers="dwarf-planets pluto">-225</td>
+                <td headers="dwarf-planets pluto">5</td>
+                <td headers="dwarf-planets pluto">Declassified as a planet in 2006, but this 
                     <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">
                     remains controversial</a>.</td>
             </tr>
